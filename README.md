@@ -1,1 +1,42 @@
 # IRI_Xenium_Visium
+
+Multimodal spatial transcriptomic characterization of mouse kidney injury and repair
+
+## Reproduce
+|  Figure |Description   |  Code |
+| :------------: | :------------: | :------------: |
+|  Fig 2 | Xenium data preprocessing and visualization |  [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/tree/main/Analysis/1_Xenium_cell_mapping) |
+| Fig 3|Xenium PT spatial trajectory analysis| [link]() |
+| Fig 4|Xenium cell neighborhood analysis| [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/tree/main/Analysis/3_Xenium_cell_neighborhood) |
+| Fig 5 A,B|Xenium Visium registration and alignment| [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/tree/main/Analysis/4_Xenium_Visium_integration) |
+| Fig 5 E,F|Visium cell neighborhood functional characterization| [link]() |
+| Fig 5 G|TF activity inference| [link]() |
+| Fig 6 A|Xenium LR analysis| [link]() |
+| Fig 6 C-H|Visium cell-cell communication| [link]() |
+|Supple Fig 1|Xenium and Visium QC | [link]() |
+|Supple Fig 3|Xenium snRNA-seq integration | [link]() |
+|Supple Fig 4|Xenium cell composition analysis| [link]() |
+|Supple Fig 8|Pseudo-Visium analysis| [link]() |
+|Supple Fig 10|Xenium imputation | [link]() |
+|Supple Fig 13|Comparative analysis| [link]() |
+|Supple Fig 17|Benchmark segmentation algorithm on Xenium| [link]() |
+|Supple Fig 18|Benchmark spot deconvolution algorithm on Visium| [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/tree/main/Analysis/7_Benchmark) |
+
+
+## Package
+
+The [**pySTIM**](https://github.com/qiaoxy0/STIM) provides a comprehensive computational pipeline for the integration and analysis of spatial transcriptomics data. This tool is designed to integrate tissue histology with both high-definition spatial transcriptomics (e.g., Xenium) and transcriptome-wide spatial transcriptomics (e.g., Visium). 
+
+### Installation
+
+Installation using pip:\
+`pip install pySTIM` 
+
+### Import
+`import pySTIM as pst`
+
+### Usage
+- **[Cross-Modality Integration of Single-Cell Resolution Xenium In Situ Data and Whole Transcriptome Visium Data](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/Integration.ipynb)**
+- **[Cell Neighborhoods Mapping and Functional Characterization](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/CN_analysis.ipynb)**
+- **[Inference of Ligand-Receptor Interactions](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/LR_analysis.ipynb)**
+- **[Core Visualization Functions](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/Visualizations.ipynb)**
