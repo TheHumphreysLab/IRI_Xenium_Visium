@@ -11,13 +11,13 @@ Multimodal spatial transcriptomic characterization of mouse kidney injury and re
 | Fig 5 A,B|Xenium Visium registration and alignment| [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/tree/main/Analysis/4_Xenium_Visium_integration) |
 | Fig 5 E,F|Visium cell neighborhood functional characterization| [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/Analysis/5_Functional_cell_neighborhood/Figure5E.ipynb) |
 | Fig 5 G|TF activity inference| [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/Analysis/5_Functional_cell_neighborhood/DecoupleR.py) |
-| Fig 6 A|Xenium LR analysis| [link]() |
-| Fig 6 C-H|Visium cell-cell communication| [link]() |
+| Fig 6 A|Xenium LR analysis| [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/Analysis/6_Ligand_receptor/2_Xenium_LR.py) |
+| Fig 6 C-H|Visium cell-cell communication| [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/Analysis/6_Ligand_receptor/Figure6C-H.ipynb) |
 |Supple Fig 1|Xenium and Visium QC | [link]() |
 |Supple Fig 3|Xenium snRNA-seq integration | [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/Analysis/1_Xenium_cell_mapping/1_Xenium_snRNA_integration.R) |
 |Supple Fig 4|Xenium cell composition analysis| [link]() |
 |Supple Fig 8|Pseudo-Visium analysis| [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/Analysis/4_Xenium_Visium_integration/Supplementary_Fig8.ipynb) |
-|Supple Fig 10|Xenium imputation | [link]() |
+|Supple Fig 10|Xenium imputation | [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/Analysis/6_Ligand_receptor/1_Xenium_imputation.py) |
 |Supple Fig 13|Comparative analysis| [link]() |
 |Supple Fig 17|Benchmark segmentation algorithm on Xenium| [link]() |
 |Supple Fig 18|Benchmark spot deconvolution algorithm on Visium| [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/tree/main/Analysis/7_Benchmark) |
