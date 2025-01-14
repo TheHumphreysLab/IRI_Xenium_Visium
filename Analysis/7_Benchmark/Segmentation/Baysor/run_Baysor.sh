@@ -1,0 +1,1 @@
+Baysor run -x x_new -y y_new -g feature_name -s 25 -c xenium.toml --prior-segmentation-confidence 0.5 --n-clusters 10 -o test_result/ -p --save-polygons GeoJSON segmentation_molecule.csv segmentation_mask.tif

@@ -1,0 +1,11 @@
+[Data]
+min-molecules-per-gene = 1
+min-molecules-per-cell = 10
+scale = 25
+estimate-scale-from-centers = true
+scale-std = "25%"
+
+[Plotting]
+gene-composition-neigborhood = 70
+
+
