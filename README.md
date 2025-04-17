@@ -4,6 +4,8 @@ Multimodal spatial transcriptomic characterization of mouse kidney injury and re
 
 ## Toolkit
 
+<img src="https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/toolkit.jpg?raw=true"/>
+
 The [**pySTIM**](https://pypi.org/project/pySTIM/) provides a comprehensive computational pipeline for the integration and analysis of spatial transcriptomics data. This tool is designed to integrate tissue histology with both high-definition spatial transcriptomics (e.g., Xenium) and transcriptome-wide spatial transcriptomics (e.g., Visium). It enables: 
 - Mapping gene expression across different spatial transcriptomics platforms
 - Analyzing cell neighborhoods to identify spatial patterns and interactions
