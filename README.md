@@ -2,7 +2,28 @@
 
 Multimodal spatial transcriptomic characterization of mouse kidney injury and repair
 
-## Reproduce
+## Toolkit
+
+The [**pySTIM**](https://pypi.org/project/pySTIM/) provides a comprehensive computational pipeline for the integration and analysis of spatial transcriptomics data. This tool is designed to integrate tissue histology with both high-definition spatial transcriptomics (e.g., Xenium) and transcriptome-wide spatial transcriptomics (e.g., Visium). It enables: 
+- Mapping gene expression across different spatial transcriptomics platforms
+- Analyzing cell neighborhoods to identify spatial patterns and interactions
+- Inferring ligand-receptor interactions
+
+### Installation
+
+Installation using pip:\
+`pip install pySTIM` 
+
+### Import
+`import pySTIM as pst`
+
+### Usage
+- **[Cross-Modality Integration of Single-Cell Resolution Xenium In Situ Data and Whole Transcriptome Visium Data](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/Integration.ipynb)**
+- **[Cell Neighborhoods Mapping and Functional Characterization](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/CN_analysis.ipynb)**
+- **[Inference of Ligand-Receptor Interactions](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/LR_analysis.ipynb)**
+- **[Core Visualization Functions](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/Visualizations.ipynb)**
+
+## Reproduce 
 |  Figure |Description   |  Code |
 | :------------: | :------------: | :------------: |
 |  Fig 2 | Xenium data preprocessing and visualization |  [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/tree/main/Analysis/1_Xenium_cell_mapping) |
@@ -20,21 +41,3 @@ Multimodal spatial transcriptomic characterization of mouse kidney injury and re
 |Supple Fig 16|Benchmark segmentation algorithm on Xenium| [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/tree/main/Analysis/7_Benchmark/Segmentation) |
 |Supple Fig 17|Benchmark spot deconvolution algorithm on Visium| [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/tree/main/Analysis/7_Benchmark/Deconvolution) |
 
-
-## Package
-
-The [**pySTIM**](https://github.com/qiaoxy0/STIM) provides a comprehensive computational pipeline for the integration and analysis of spatial transcriptomics data. This tool is designed to integrate tissue histology with both high-definition spatial transcriptomics (e.g., Xenium) and transcriptome-wide spatial transcriptomics (e.g., Visium). 
-
-### Installation
-
-Installation using pip:\
-`pip install pySTIM` 
-
-### Import
-`import pySTIM as pst`
-
-### Usage
-- **[Cross-Modality Integration of Single-Cell Resolution Xenium In Situ Data and Whole Transcriptome Visium Data](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/Integration.ipynb)**
-- **[Cell Neighborhoods Mapping and Functional Characterization](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/CN_analysis.ipynb)**
-- **[Inference of Ligand-Receptor Interactions](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/LR_analysis.ipynb)**
-- **[Core Visualization Functions](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/Visualizations.ipynb)**
