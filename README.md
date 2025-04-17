@@ -23,7 +23,7 @@ Installation using pip:\
 - **[Inference of Ligand-Receptor Interactions](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/LR_analysis.ipynb)**
 - **[Core Visualization Functions](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/blob/main/notebooks/Visualizations.ipynb)**
 
-## Reproduce 
+### Reproduce figures in the manuscript
 |  Figure |Description   |  Code |
 | :------------: | :------------: | :------------: |
 |  Fig 2 | Xenium data preprocessing and visualization |  [link](https://github.com/TheHumphreysLab/IRI_Xenium_Visium/tree/main/Analysis/1_Xenium_cell_mapping) |
